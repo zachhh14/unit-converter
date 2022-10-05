@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+@font-face {
+    font-family: Inter600;
+    src: url(./static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter800;
+    src: url(./static/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Inter400;
+    src: url(./static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter500;
+    src: url(./static/Inter-Medium.ttf);
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.header {
+  background-color: #6943ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 285px;
+  width: 550px;
+}
+
+.label {
+  font-weight: 800;
+  font-size: 28px;
+  color: white;
+  font-family: Inter800;
+  margin-bottom: 15px;
+}
+
+input {
+  margin-top: 15px;
+  background-color: transparent;
+  border: solid 2px #b295ff;
+  border-radius: 5px;
+  color: white;
+  font-family: Inter800;
+  resize: horizontal;
+  width: 117px;
+  height: 83px;
+  text-align: center;
+  font-size: 58px;
+}
+
+button {
+  background-color: #fff;
+  width: 117px;
+  height: 42px;
+  font-family: Inter500;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.below{
+    padding: 12px 25px;
+    background-color: #1F2937;
+}
+
+.Label{
+    color: #CCC1FF;
+    text-align: center;
+    font-family: Inter600;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 4.5px;
+}
+
+.Details{
+    color: white;
+    text-align: center;
+    font-family: Inter400;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 4.5px;
+}
+
+.box{
+    padding: 31px 0px;
+
+    background-color: #273549;
+    margin: 24px 0px;
+    width: 500px
+}
