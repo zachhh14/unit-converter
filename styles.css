@@ -1,32 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
 
 @font-face {
-    font-family: Inter600;
-    src: url(./static/Inter-SemiBold.ttf);
+  font-family: Inter600;
+  src: url(./static/Inter-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: Inter800;
-    src: url(./static/Inter-ExtraBold.ttf);
+  font-family: Inter800;
+  src: url(./static/Inter-ExtraBold.ttf);
 }
 
 @font-face {
-    font-family: Inter400;
-    src: url(./static/Inter-Regular.ttf);
+  font-family: Inter400;
+  src: url(./static/Inter-Regular.ttf);
 }
 
 @font-face {
-    font-family: Inter500;
-    src: url(./static/Inter-Medium.ttf);
+  font-family: Inter500;
+  src: url(./static/Inter-Medium.ttf);
 }
 
+*{
+  margin: 0;
+}
 
 body {
+  align-self: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-
+  padding: 50px;
+  /* justify-content: stretch; */
+  margin: 10px;
 
 }
 .header {
@@ -36,7 +41,18 @@ body {
   align-items: center;
   flex-direction: column;
   height: 285px;
-  width: 550px;
+  width: 100%;
+}
+
+.below {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  height: 100%;
+  width: 100;
+  padding: 12px 25px;
 }
 
 .label {
@@ -45,6 +61,7 @@ body {
   color: white;
   font-family: Inter800;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 input {
@@ -73,33 +90,29 @@ button {
   cursor: pointer;
 }
 
-.below{
-    padding: 12px 25px;
-    background-color: #1F2937;
+
+.Label {
+  color: #ccc1ff;
+  text-align: center;
+  font-family: Inter600;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4.5px;
 }
 
-.Label{
-    color: #CCC1FF;
-    text-align: center;
-    font-family: Inter600;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 4.5px;
+.Details {
+  color: white;
+  text-align: center;
+  font-family: Inter400;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4.5px;
 }
 
-.Details{
-    color: white;
-    text-align: center;
-    font-family: Inter400;
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 4.5px;
-}
-
-.box{
-    padding: 31px 0px;
-
-    background-color: #273549;
-    margin: 24px 0px;
-    width: 500px
+.box {
+  padding: 31px 25px;
+  background-color: #273549;
+  margin: 24px 25px;
+  width:95%;
+  
 }
