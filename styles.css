@@ -20,7 +20,7 @@
   src: url(./static/Inter-Medium.ttf);
 }
 
-*{
+* {
   margin: 0;
 }
 
@@ -29,10 +29,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 10px;
   /* justify-content: stretch; */
   margin: 10px;
-
 }
 .header {
   background-color: #6943ff;
@@ -90,7 +89,6 @@ button {
   cursor: pointer;
 }
 
-
 .Label {
   color: #ccc1ff;
   text-align: center;
@@ -113,6 +111,5 @@ button {
   padding: 31px 25px;
   background-color: #273549;
   margin: 24px 25px;
-  width:95%;
-  
+  width: 95%;
 }
